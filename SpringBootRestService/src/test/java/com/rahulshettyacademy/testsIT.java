@@ -1,8 +1,6 @@
 package com.rahulshettyacademy;
 
 import org.json.JSONException;
-import org.junit.Assert;
-import org.junit.Test;
 import org.skyscreamer.jsonassert.JSONAssert;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
@@ -13,6 +11,8 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 
 import com.rahulshettyacademy.controller.Library;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 @SpringBootTest
 public class testsIT {

@@ -583,3 +583,27 @@ Caused by: java.sql.SQLSyntaxErrorException: Table 'Courses.storage2' doesn't ex
 2024-10-08 06:38:38.781  WARN 12230 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2024-10-08 06:38:38.931  INFO 12230 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
 2024-10-08 06:38:38.936  INFO 12230 --- [main] c.rahulshettyacademy.CoursesApplication  : Started CoursesApplication in 1.436 seconds (JVM running for 1.93)
+2024-10-08 08:53:06.959  INFO 12230 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-08 08:53:06.962  INFO 12230 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-08 08:53:06.974  INFO 12230 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-08 08:58:26.947  INFO 24953 --- [main] c.rahulshettyacademy.CoursesApplication  : Starting CoursesApplication using Java 11.0.24 on tspencers-MacBook-Pro.local with PID 24953 (/Users/tspencer/Desktop/Code Projects/Courses/target/classes started by tspencer in /Users/tspencer/Desktop/Code Projects/Courses)
+2024-10-08 08:58:26.949  INFO 24953 --- [main] c.rahulshettyacademy.CoursesApplication  : No active profile set, falling back to default profiles: default
+2024-10-08 08:58:27.298  INFO 24953 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-08 08:58:27.323  INFO 24953 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interfaces.
+2024-10-08 08:58:27.545  INFO 24953 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2024-10-08 08:58:27.551  INFO 24953 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-08 08:58:27.551  INFO 24953 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-10-08 08:58:27.592  INFO 24953 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-08 08:58:27.592  INFO 24953 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 544 ms
+2024-10-08 08:58:27.664  INFO 24953 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-08 08:58:27.686  INFO 24953 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2024-10-08 08:58:27.744  INFO 24953 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 08:58:27.782  INFO 24953 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-08 08:58:27.784  WARN 24953 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-10-08 08:58:27.998  INFO 24953 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-08 08:58:28.005  INFO 24953 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-10-08 08:58:28.198  INFO 24953 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-08 08:58:28.202  INFO 24953 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-08 08:58:28.325  WARN 24953 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-08 08:58:28.487  INFO 24953 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2024-10-08 08:58:28.492  INFO 24953 --- [main] c.rahulshettyacademy.CoursesApplication  : Started CoursesApplication in 1.719 seconds (JVM running for 2.274)
