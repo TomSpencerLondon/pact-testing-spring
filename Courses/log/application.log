@@ -607,3 +607,42 @@ Caused by: java.sql.SQLSyntaxErrorException: Table 'Courses.storage2' doesn't ex
 2024-10-08 08:58:28.325  WARN 24953 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2024-10-08 08:58:28.487  INFO 24953 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
 2024-10-08 08:58:28.492  INFO 24953 --- [main] c.rahulshettyacademy.CoursesApplication  : Started CoursesApplication in 1.719 seconds (JVM running for 2.274)
+2024-10-08 10:06:00.788  INFO 30216 --- [main] c.r.Courses.PactProviderTest             : Starting PactProviderTest using Java 11.0.24 on tspencers-MacBook-Pro.local with PID 30216 (started by tspencer in /Users/tspencer/Desktop/Code Projects/Courses)
+2024-10-08 10:06:00.789  INFO 30216 --- [main] c.r.Courses.PactProviderTest             : No active profile set, falling back to default profiles: default
+2024-10-08 10:06:01.182  INFO 30216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-08 10:06:01.212  INFO 30216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+2024-10-08 10:06:01.571  INFO 30216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2024-10-08 10:06:01.577  INFO 30216 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-08 10:06:01.577  INFO 30216 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-10-08 10:06:01.636  INFO 30216 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-08 10:06:01.636  INFO 30216 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 716 ms
+2024-10-08 10:06:01.778  INFO 30216 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-08 10:06:01.810  INFO 30216 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2024-10-08 10:06:01.901  INFO 30216 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-08 10:06:01.949  INFO 30216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-08 10:06:01.951  WARN 30216 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-10-08 10:06:02.193  INFO 30216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-08 10:06:02.203  INFO 30216 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-10-08 10:06:02.479  INFO 30216 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-08 10:06:02.484  INFO 30216 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-08 10:06:02.656  WARN 30216 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-08 10:06:02.981  INFO 30216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 65324 (http) with context path ''
+2024-10-08 10:06:02.986  INFO 30216 --- [main] c.r.Courses.PactProviderTest             : Started PactProviderTest in 2.573 seconds (JVM running for 3.469)
+2024-10-08 10:06:03.149  INFO 30216 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium does not exist':SETUP
+2024-10-08 10:06:03.326  INFO 30216 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-08 10:06:03.326  INFO 30216 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-08 10:06:03.327  INFO 30216 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-10-08 10:06:03.412  WARN 30216 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Not all of the 3 were verified. The following were missing:
+2024-10-08 10:06:03.412  WARN 30216 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   :     Get the Appium course details
+2024-10-08 10:06:03.412  WARN 30216 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   :     getting all courses details
+2024-10-08 10:06:03.413  INFO 30216 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium does not exist':TEARDOWN
+2024-10-08 10:06:03.445  INFO 30216 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium exist':SETUP
+2024-10-08 10:06:03.480  WARN 30216 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Not all of the 3 were verified. The following were missing:
+2024-10-08 10:06:03.480  WARN 30216 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   :     getting all courses details
+2024-10-08 10:06:03.480  INFO 30216 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'Course Appium exist':TEARDOWN
+2024-10-08 10:06:03.488  INFO 30216 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':SETUP
+2024-10-08 10:06:03.503  WARN 30216 --- [main] a.c.d.p.p.DefaultTestResultAccumulator   : Skipping publishing of verification results as it has been disabled (pact.verifier.publishResults is not 'true')
+2024-10-08 10:06:03.503  INFO 30216 --- [main] p.j.PactVerificationStateChangeExtension : Invoking state change method 'courses exist':TEARDOWN
+2024-10-08 10:06:03.522  INFO 30216 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-08 10:06:03.524  INFO 30216 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-08 10:06:03.537  INFO 30216 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
